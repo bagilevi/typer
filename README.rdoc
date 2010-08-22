@@ -1,0 +1,23 @@
+= Typer
+
+Simple touch typing trainer for developers/sysadmins or other nerds in love with the console.
+
+== Installation
+
+Install ruby[http://www.ruby-lang.org/] & rubygems[http://rubygems.org/], then:
+
+    [sudo] gem install typer
+
+== Usage
+
+    typer
+
+Press Ctrl+C to exit.
+
+== Customize
+
+Edit files in <tt>lessons/</tt> directory.
+
+== License
+
+WTFPL[http://sam.zoy.org/wtfpl/]

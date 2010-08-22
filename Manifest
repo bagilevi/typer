@@ -1,0 +1,6 @@
+Manifest
+README.rdoc
+Rakefile
+bin/typer
+lessons/example.txt
+lib/typer.rb

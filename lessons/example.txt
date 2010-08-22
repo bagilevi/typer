@@ -1,0 +1,29 @@
+git status
+git stash
+spec spec/bots/bot_server_spec.rb
+git rebase --abort
+git log development
+git stash apply
+git reset test/factory.rb
+git commit --amend -m "[Fix#381]"
+git pull origin development
+vim .gitignore
+script/console production
+script/server -p 3001
+rake db:migrate RAILS_ENV=test
+rake db:setup RAILS_ENV=production
+rake -T
+script/generate model Article title:string body:text user_id:integer
+script/generate migration add_permalink_to_aricles
+tail -fn 1000 log/production.log
+spec spec/controllers/articles_controller_spec.rb
+ps aux | grep ruby
+sudo killall ruby
+rm -Rf public/.sass-cache/
+memcached -m 96 -vv -p 11211
+mate ~/.bash_profile
+rake db:schema:load RAILS_ENV=test
+mate config/database.yml
+rvm list
+rvm use 1.9.1
+rvm install 1.9.2
